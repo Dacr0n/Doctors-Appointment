@@ -8,7 +8,6 @@
 
 //For gotoxy function
 COORD coord = {0, 0}; // sets coordinates to 0,0
-//COORD max_buffer_size = GetLargestConsoleWindowSize(hOut);
 COORD max_res,cursor_size;
 void gotoxy (int x, int y)
 {
