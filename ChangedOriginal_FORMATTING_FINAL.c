@@ -177,7 +177,7 @@ struct patient *display(struct patient *start)//Display
 		printf("%s",ptr->gender);
 		gotoxy(59,p);
 		printf("%s",ptr->complaint);
-		gotoxy(81,p);
+		gotoxy(79,p);
 		printf("%s",ptr->diagnosis);
 
 
