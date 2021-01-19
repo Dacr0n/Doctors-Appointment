@@ -34,7 +34,6 @@ int count=1, d=1;
 struct patient *start=NULL;
 struct patient *new_patient(struct patient *start);
 struct patient *display(struct patient *start);
-struct patient *display_pre(struct patient *start);
 struct patient *insert_app(struct patient *start);
 
 
@@ -245,7 +244,7 @@ int n;
 {
 	if(strcmp(password, "default") == 0)
 	{
-		printf("\n \nWELCOME DR. HOUSE\n");
+
 		admin();
 	}
 }
@@ -283,7 +282,7 @@ struct patient *next_ap(struct patient *start)
 		if(ptr->appointment==d)
 		{
 		    gotoxy(20,3);
-		    printf("\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB Counsulting Patient Details\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB");
+		    printf("\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB Consulting Patient Details\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB");
 		    gotoxy(20,5);
 			printf("Name: %s",ptr->name);
 			gotoxy(20,7);
